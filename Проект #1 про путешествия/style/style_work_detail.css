@@ -1,0 +1,176 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #21243D;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mobile {
+    display: none;
+}
+
+.wrapper_nav {
+    max-width: 1032px;
+    margin: 0 auto;
+    padding-top: 27px;
+    margin-bottom: 140px;
+}
+
+.flex_wrapper_nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+nav {
+    font-size: 20px;
+    font-weight: 500;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.nav:hover {
+    color: #FF6464;
+}
+
+.wrapper_block_1, .wrapper_block_2 {
+    max-width: 681px;
+    margin: 0 auto;
+    margin-bottom: 54px;
+}
+
+.title_h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 50px;
+    width: 500px;
+    margin-bottom: 32px;
+}
+
+.flex_wrapper {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.year {
+    padding: 1px 10px;
+    background-color: #FF7C7C;
+    color: white;
+    border: 1px solid #FF7C7C;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.dashboard {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.text  {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.title_h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.title_h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.img {
+    margin-bottom: 27px;
+}
+
+@media screen and (max-width:1032px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .wrapper_nav_mobile {
+        padding: 20px 18px;
+        margin-bottom: 45px;
+    }
+
+    .flex_burger {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .bar {
+        width: 30px;
+        height: 2px;
+        background-color: #333;
+        margin: 4px 0;
+    }
+
+    .wrapper_block_1, .wrapper_block_2 {
+        max-width: 339px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .title_h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        width: 339px;
+        margin-bottom: 23px;
+    }
+
+    .flex_wrapper {
+        gap: 15px;
+        align-items: flex-start;
+        margin-bottom: 24px;
+    }
+
+    .text {
+        margin-bottom: 23px;
+    }
+
+    .title_h2 {
+        font-size: 26px;
+    }
+
+    .title_h3 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
